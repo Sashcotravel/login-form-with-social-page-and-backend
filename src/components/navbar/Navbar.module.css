@@ -1,0 +1,39 @@
+.navbar{
+  height: 80px;
+  background-color: lightcoral;
+  color: azure;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.listItem{
+  margin-right: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.avatar{
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.navLink{
+  font-weight: bold;
+  color: azure;
+  text-decoration: none;
+}
